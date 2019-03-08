@@ -1,0 +1,101 @@
+#rb{
+            float: center;
+            width: 50%;
+            height: 600px;
+            border:1px solid lightgray;
+            border-radius: 10px;
+            align-content: center;
+            color: orange;
+    }
+#button{
+            background-color: lightcoral;
+            border: dashed 2px white;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            
+            
+    }
+    #whole{
+    align-items: center;
+    }    
+    
+    
+    h2{
+        text-align: center;
+        font-size: 72px;
+        color: orange;
+        }
+    body{
+        
+        background-color: blue;
+        border-style: dashed;
+        border-width: 25px;
+        border-color: orange;
+        padding: 30px;
+    }
+    p{
+        
+        text-align: center;
+        font-size: 24px;
+        color: orange;
+    }
+      .navbar{
+        display: block;
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+        
+    }
+    .home{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .roster
+    {
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .ppg{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .history{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .fs{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    p1{
+        color: orange;
+        font-size: 24px;
+    }
+    .li{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }

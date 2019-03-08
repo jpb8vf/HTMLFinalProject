@@ -1,0 +1,53 @@
+{
+    "beardex":{
+        "bearplayer":[
+            {"name":"Unrein, Mitch", 
+             "age":"30", 
+             "school":"Wyoming",
+             "positon":"DE"
+            }, 
+            {
+                "name":"Bullard, Jonathan", 
+                "age":"24", 
+                "school":"Florida",
+                "positon":"DE"
+            }, 
+            {
+                "name":"Floyd, Leonard", 
+                "age":"25", 
+                "school":"Georgia",
+                "positon":"DE"
+            },
+            {
+                "name":"Goldman, Eddie", 
+                "age":"23", 
+                "school":"Florida St.",
+                "positon":"NT"
+            }, 
+            {
+                "name":"Hicks, Aklem", 
+                "age":"28", 
+                "school":"Regina(Canada)",
+                "positon":"DE"
+            },
+            {
+                "name":"Jenkins, John", 
+                "age":"28", 
+                "school":"Georgia",
+                "positon":"NT"
+            },
+            {
+                "name":"Robertson-Harris, Roy", 
+                "age":"24", 
+                "school":"UTEP",
+                "positon":"DE"
+            },
+            {
+                "name":"Coward, Rashaad", 
+                "age":"23", 
+                "school":"Old Dominion",
+                "positon":"DL"
+            }
+        ] 
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "beardex":{
+        "bearplayer":[
+        {
+            "name":"Amos, Adrian", 
+            "age":"24", 
+            "school":"Penn State",
+            "positon":"S"
+        },   
+        {
+            "name":"Bush, Deon", 
+            "age":"24", 
+            "school":"Miami(FL)",
+            "positon":"S"
+        }, 
+        {
+            "name":"Houston-Carson, Andre", 
+            "age":"24", 
+            "school":"William and Mary",
+            "positon":"S"
+        },
+        {
+            "name":"Jackson, Eddie", 
+            "age":"23", 
+            "school":"Alabama",
+            "positon":"S"
+        }, 
+        {
+            "name":"Demps, Quintin", 
+            "age":"32", 
+            "school":"UTEP",
+            "positon":"S"
+        },
+        {
+            "name":"Hall, Delondre", 
+            "age":"23", 
+            "school":"Northern Iowa",
+            "positon":"DB"
+        },
+        {
+            "name":"Hall, Delondre", 
+            "age":"23", 
+            "school":"Northern Iowa",
+            "positon":"DB"
+        },
+        {
+            "name":"Fuller, Kyle", 
+            "age":"25", 
+            "school":"Virgina Tech",
+            "positon":"CB"
+        },
+        {
+            "name":"Amukamara, Prince", 
+            "age":"28", 
+            "school":"Nebraska",
+            "positon":"CB"
+        },
+        {
+            "name":"Callahan, Bryce", 
+            "age":"26", 
+            "school":"Rice",
+            "positon":"CB"
+        },
+        {
+            "name":"Cooper St., Marcus", 
+            "age":"27", 
+            "school":"Rutgers",
+            "positon":"CB"
+        },
+        {
+            "name":"Grant, Doran", 
+            "age":"24", 
+            "school":"Ohio St.",
+            "positon":"CB"
+        },
+        {
+            "name":"LeBlanc, Cre'Von", 
+            "age":"23", 
+            "school":"Florida Atlantic",
+            "positon":"CB"
+        }, 
+        {
+            "name":"McManis, Sherrick", 
+            "age":"29", 
+            "school":"Northwestern",
+            "positon":"CB"
+        }
+        ] 
+    }
+}

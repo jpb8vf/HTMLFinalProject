@@ -1,0 +1,74 @@
+ h2{
+        text-align: center;
+        font-size: 72px;
+        color: orange;
+        }
+    body{
+        background-color: blue;
+        border-style: dashed;
+        border-width: 25px;
+        border-color: orange;
+        padding: 30px;
+        
+    
+    }
+    p{
+        font-size: 20px;
+        color: orange;
+    }
+      .navbar{
+        display: block;
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+        
+    }
+    .home{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .roster
+    {
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .ppg{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .history{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    .fs{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    
+
+    .li{
+        padding: 10px 40px;
+        border-style: solid;
+        border-width: 12px;
+        border-color: orange;
+        color: orange;
+    }
+    
+    

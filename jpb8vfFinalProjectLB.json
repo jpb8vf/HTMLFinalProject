@@ -1,0 +1,72 @@
+{
+    "beardex":{
+        "bearplayer":[
+            {
+                "name":"Acho, Sam", 
+                "age":"29", 
+                "school":"Texas", 
+                "positon": "OLB"
+            },
+            {
+                "name":"Anderson, Jonathan", 
+                "age":"26", 
+                "school":"TCU",
+                "positon":"LB"
+            },
+            {
+                "name":"Irving, Isaiah", 
+                "age":"23", 
+                "school":"San Jose St.",
+                "positon":"LB"
+            },
+            {
+                "name":"Jones, Christian", 
+                "age":"26", 
+                "school":"Florida St.",
+                "positon":"ILB"
+            },
+            {
+                "name":"Kwiatkoski, Nick", 
+                "age":"24", 
+                "school":"West Virgina",
+                "positon":"ILB"
+            },
+            {
+                "name":"McPhee, Pernell", 
+                "age":"28", 
+                "school":"Mississippi St.",
+                "positon":"OLB"
+            },
+            {
+                "name":"Timu, John", 
+                "age":"25", 
+                "school":"Washington",
+                "positon":"LB"
+            }, 
+            {
+                "name":"Trevathan, Danny", 
+                "age":"27", 
+                "school":"Kentucky",
+                "positon":"ILB"
+            }, 
+            {
+                "name":"Freeman, Jerrell", 
+                "age":"31", 
+                "school":"Mary Hardin-Baylor",
+                "positon":"ILB"
+            },
+            {
+                "name":"Young, Willie", 
+                "age":"32", 
+                "school":"North Carolina St.",
+                "positon":"OLB"
+            },
+            {
+                "name":"Jones, Howard", 
+                "age":"27", 
+                "school":"Shepherd",
+                "positon":"LB"
+            }
+        ] 
+    }
+}

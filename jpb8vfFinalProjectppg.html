@@ -1,0 +1,225 @@
+<!-- 
+name: Joseph Bertolino
+pawprint: jpb8vf
+date: 11/3/17
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/jpb8vfFinalProjectppg.css">   
+    
+    <title>DA BEARS</title>
+            <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+
+
+</style>
+</head>
+
+    
+    
+    
+<body>
+
+<div id="whole">
+<nav>
+<ul>
+<table class="navbar">
+<tr>
+<td class="home"><li><a href="index.html">HOME</a></li></td>   
+<td class="roster"><li><a href="jpb8vfFinalProjectRoster.html">ROSTER</a></li></td>
+<td class="ppg"><li><a href="jpb8vfFinalProjectppg.html">PLAYER PER POSITION GENERATOR</a></li></td>
+<td class="history"><li><a href="jpb8vfFinalProjecthistory.html">HISTORY</a></li></td> 
+<td class="fs"><li><a href="jpb8vfFinalProjectFS.html">FIGHT SONG</a></li></td>
+<td class="li"><li><a href="jpb8vfFInalProjectLI.php">MEMBERS ONLY</a></li></td>        
+</tr>
+</table>
+</ul>        
+</nav>        
+      
+
+<h2>Player Per Position Generater</h2>
+<p>pick the position you want and all the name on the roster with that position will show up </p>
+    
+ <div id="rb"></div>    
+
+    
+<p1> Offense</p1>    
+<button type="button" id="a" name="l" onclick="getQB()">QB</button>
+
+<button type="button" id="b" name="t" onclick="getRB()">RB</button>
+     
+<button type="button" id="d" name="l" onclick="getReciever()">Reciever</button>
+
+<button type="button" id="d" name="l" onclick="getOL()">OL</button><br>
+<p1> Defense</p1>    
+<button type="button" id="a" name="l" onclick="getLB()">LB</button>
+
+<button type="button" id="b" name="t" onclick="getDB()">DB</button>
+
+<button type="button" id="c" name="c" onclick="getDL()">DL</button>     
+
+<p>GO PACK GO!! Click me if you disagree.</p>
+
+</div>
+        
+    
+
+<script>
+
+    
+
+    
+// get by xml (offense)
+function getQB(){
+    document.getElementById("rb").innerHTML= "loading…";
+    $.ajax({
+        url: "http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFinalProjectQB.xml", 
+        type:"GET", 
+        datatype:"xml", 
+        success: function(xml){
+        $( "#rb" ).html("<ul>\n");
+        $(xml).find("bearplayer").each(function(){
+        
+            $("#rb").append("<li>" + $(this).find("name").text() + " is " + $(this).find("age").text() + " and went to " + $(this).find("school").text() + "</li>");
+        });
+    $("#rb").append("</ul>");
+    }
+    });
+    }
+
+// get by xml (offense)
+function getRB(){
+    document.getElementById("rb").innerHTML= "loading…";
+    $.ajax({
+        url: "http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFinalProjectRB.xml", 
+        type:"GET", 
+        datatype:"xml", 
+        success: function(xml){
+        $( "#rb" ).html("<ul>\n");
+        $(xml).find("bearplayer").each(function(){
+        
+            $("#rb").append("<li>" + $(this).find("name").text() + " is " + $(this).find("age").text() + " and went to " + $(this).find("school").text() + "</li>");
+
+           
+        });
+    $("#rb").append("</ul>");
+    }
+    });
+    }
+    
+// get by xml (offense)
+function getReciever(){
+    document.getElementById("rb").innerHTML= "loading…";
+    $.ajax({
+        url: "http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFinalProjectReciever.xml", 
+        type:"GET", 
+        datatype:"xml", 
+        success: function(xml){
+        $( "#rb" ).html("<ul>\n");
+        $(xml).find("bearplayer").each(function(){
+        
+            $("#rb").append("<li>" + $(this).find("name").text() + " is " + $(this).find("age").text() + " and went to " + $(this).find("school").text() + " and position is " + $(this).find("position").text() + "</li>");
+
+        });
+    $("#rb").append("</ul>");
+    }
+    });
+    }    
+ 
+// get by xml (offense)
+function getOL(){
+    document.getElementById("rb").innerHTML= "loading…";
+    $.ajax({
+        url: "http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFinalProjectOL.xml", 
+        type:"GET", 
+        datatype:"xml", 
+        success: function(xml){
+        $( "#rb" ).html("<ul>\n");
+        $(xml).find("bearplayer").each(function(){
+        
+            $("#rb").append("<li>" + $(this).find("name").text() + " is " + $(this).find("age").text() + " years old and went to " + $(this).find("school").text() + " and position is " + $(this).find("position").text() + "</li>");
+        });
+    $("#rb").append("</ul>");
+    }
+    });
+    }
+    
+    
+// get by json (defense)    
+function getDL(){
+    document.getElementById("rb").innerHTML= "loading…";
+    
+    $.getJSON("http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFInalProjectDL.json",     
+                  function(data){
+                    $( "#rb" ).html("<ul>\n");
+                    $.each(data.beardex.bearplayer , function(i, bearplayer){
+                       
+                        $("#rb").append("<li>" + bearplayer.name +  " is " + bearplayer.age + " years old and went to " + bearplayer.school + " and position is " + bearplayer.positon + "</li>" );
+                        
+                    });
+                    $("#rb").append("</ul>");
+                        });
+}
+    
+// get by json (defense)    
+function getLB(){
+    document.getElementById("rb").innerHTML= "loading…";
+    
+    $.getJSON("http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFinalProjectLB.json",     
+                  function(data){
+                    $( "#rb" ).html("<ul>\n");
+                    $.each(data.beardex.bearplayer , function(i, bearplayer){
+                       
+$("#rb").append("<li>" + bearplayer.name +  " is " + bearplayer.age + " years old and went to " + bearplayer.school + " and position is " + bearplayer.positon + "</li>" );
+                                                
+                    });
+                    $("#rb").append("</ul>");
+                        });
+}
+    
+// get by json (defense)    
+function getDB(){
+    document.getElementById("rb").innerHTML= "loading…";
+    
+    $.getJSON("http://127.0.0.1:64967/2830%20FINAL%20PROJECT/jpb8vfFinalProjectDB.json",     
+                  function(data){
+                    $( "#rb" ).html("<ul>\n");
+                    $.each(data.beardex.bearplayer , function(i, bearplayer){
+                       
+$("#rb").append("<li>" + bearplayer.name +  " is " + bearplayer.age + " years old and went to " + bearplayer.school + " and position is " + bearplayer.positon + "</li>" );
+                                                
+                    });
+                    $("#rb").append("</ul>");
+                        });
+}    
+    
+    
+    
+    
+
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</script>
+     
+</body>
+</html>
+  
